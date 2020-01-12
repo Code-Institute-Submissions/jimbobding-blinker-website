@@ -1,0 +1,56 @@
+body {
+    
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+
+#landing-page {
+    background-attachment: fixed;
+    background-image: url("../images/Loop-Top3 (2).jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*-----------------------------navbar*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color:  rgba(72, 153, 114, .75);
+    padding: 0;
+
+}
+    
+    
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a {
+
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: black;
+}
+
+    
+    ul {
+        list-style-type: none;
+    }
+
+.name {
+    text-align: center;
+}
