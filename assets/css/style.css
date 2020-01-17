@@ -1,5 +1,8 @@
-body {
-    
+@import url('https://fonts.googleapis.com/css?family=Noto');
+
+
+body {  
+    font-family: 'Noto';
     display: grid;
     min-height: 100vh;
     place-items: center;
@@ -8,6 +11,10 @@ body {
     margin: 0;
 }
 
+.header {
+    width: 100%;
+    background-color: 3355FF;
+}
 
 #landing-page {
     background-attachment: fixed;
@@ -23,19 +30,22 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: right;
     min-height: 10vh;
-    background-color:  rgba(72, 153, 114, .75);
+    background-color:  rgba(72, 153, 114, 2);
     padding: 0;
-
+    position: fixed;
+    width: 100%;
+    border: 1px solid black;
+    z-index: 1;
 }
-    
+   
     
 .nav-links {
     display: flex;
-    justify-content: space-around;
-    width: 30%;
+    justify-content: flex-end;
+    width: 50%;
 }
 
 .nav-links a {
@@ -44,13 +54,191 @@ nav {
     font-size: 15px;
     letter-spacing: 3px;
     color: black;
+    padding: 15px;
 }
 
     
-    ul {
-        list-style-type: none;
-    }
+    nav li {
+       
+        display: inline;
+       }
 
 .name {
     text-align: center;
+}
+
+
+.logo {
+    float: right;
+    padding-left: 20px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+h5  {
+    font-size: 30px;
+}
+
+
+/*-----------------------------about section*/
+
+ h2 {
+   text-align: center;
+}
+
+.margin-p {
+    margin-bottom: 6rem;
+}
+
+.about-row {
+    color: black;
+}
+
+
+ .menus-container  {  
+    padding: 0;
+  
+ }    
+
+/*-----------------------------menu cards*/
+
+
+.w3-container {
+    place-items: bottom;
+}
+
+ .move {
+        place-content: center;
+    }
+    
+    .drinks-card {
+     height: 300px;
+     object-fit: cover;
+     overflow: hidden;
+    
+        }
+
+.cards {
+    display: flex;    
+    transition: ease-in-out .25s;    
+    margin: 4rem;
+      
+}
+.card {
+    background-color: black;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: -4rem;
+    box-shadow: 4px 4px 12px 2px rgba(72, 153, 114, 1);
+    height: 300px;
+    width: 300px;
+    
+
+}
+
+.card:not(:first-child) {
+    margin-left: -4rem;
+    transition: ease-in-out .25s;
+}
+
+
+    .card:hover {       
+     transform: translateY(-1rem);
+    }
+
+    .card:hover  ~ .card {
+       transform: translateX(8rem);
+
+    }
+ @media (max-width: 600px){
+ .cards {
+         margin-left: 0;
+         display: block;
+         place-items: right;
+    }
+.card { 
+        margin-left: 4rem;
+
+}
+
+.card:not(:first-child) {
+    margin-left: 4rem;
+    
+}
+    }
+
+
+    .details-container {
+    background-attachment: fixed;
+    background-image: url("../images/Loop-Top1.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    }
+
+    .jumbotron-hours {
+       background-color: rgba(255, 225, 53, .95);
+       
+     
+    }
+
+    .hours {
+        place-content: center;
+    }
+/*-----------------------------opening hours*/
+   
+
+   table {
+       align-content: center;
+   }
+
+/*-----------------------------drinks-landing*/
+
+
+#drinks-landing {
+    background-attachment: fixed;
+    background-image: url("../images/Cocktail-cover.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*-----------------------------drinks-landing*/
+
+
+.cocktails-heading {
+    padding-top: 100px;
+}
+
+
+.wine-heading {
+    padding-top: 300px;
+}
+
+
+hr {
+    background-color: red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+
+.drinks-details-container {
+    background-attachment: fixed;
+    background-image: url("../images/loop-roof-mel-.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wine-name {
+ margin-top: 20px;
 }
