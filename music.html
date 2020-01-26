@@ -21,13 +21,7 @@
 </head>
 
 <body>
-	<header class="header">
-		<h3>Blinker</h3>
-	</header>
-	<!-- landing -->
-
-	<div class="container-fluid "></div>
-	<nav class="fixed">
+	<nav>
 		<header>
 			<div class="logo">
 				<a href="index.html">
@@ -35,13 +29,20 @@
 				</a>
 			</div>
 		</header>
-		<ul class="nav-links navbar-collapse ">
 
-			<li><a href="#who_we_are">Who We Are</a></li>
-			<li><a href="#drinks_music_&_goodtimes"> Drinks Music & Good Times</a></li>
-			<li><a href="#when_we_are_open">When We Are Open</a></li>
+
+		<div class="nav">
+			<label for="toggle">&#9776</label>
+			<input type="checkbox" id="toggle"/>
+			<div class="menu">
+				<a href="#who_we_are">Who We Are</a>
+				<a href="#drinks_music_&_goodtimes"> Drinks Music & Good Times</a>
+				<a href="#when_we_are_open">When We Are Open</a>
+
+			</div>
+		</div>
+
 	</nav>
-	</ul>
 	<div id="music-landing">
 		<div class="container name">
 			<br>
@@ -54,8 +55,8 @@
 			<br>
 			<br>
 			<br>
-			<h1>Music</h1>
-			<p>Dj's, Events and Good Times</p>
+			<h1 class="music-heading">Music</h1>
+			<p class="music-p">Dj's, Events and Good Times</p>
 		</div>
 	</div>
 	<!-- /.landing -->
@@ -67,29 +68,21 @@
 				<br>
 				<h2>What We Listen to</h2></a>
 				<hr>
-				<p>
-					<center> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore quasi libero et omnis!
-						Vitae,
-						unde quaerat dignissimos, earum aliquam magni eum incidunt omnis laudantium repellendus
-						molestias in
-						quas velit.
-						Commodi quaerat accusamus provident. Aliquam repudiandae quibusdam, officia asperiores iure iste
-						quia dolore eaque minus fugiat quo error non minima molestiae laborum rem qui est illum.
-						Perspiciatis minima quas in!
-						Quidem quisquam error sunt quae facilis! Neque deserunt consequatur voluptates, laboriosam
-						expedita
-						dolorem pariatur deleniti repellendus, officia minima ad, a porro optio cum enim laudantium
-						voluptate quae quia officiis fugit?
-						Rerum aspernatur, vero praesentium expedita consectetur, aperiam tempore commodi dolores qui
-						itaque,
-						at earum nobis consequuntur accusamus veritatis deleniti nisi sunt quos dicta? Amet qui eveniet
-						optio, quasi veritatis dolor!
-						Minus, deleniti consequuntur voluptatibus accusantium laborum quam ad quis? Architecto rem
-						provident
-						totam, vel explicabo, aut dignissimos commodi molestiae consectetur atque quos cumque, nihil
-						ducimus
-						ut. Ullam, sed! Fugiat, labore.</center>
-				</p>
+				<div class="center">
+					<p>
+						At Blinker we do not like the atmosphere to be painted on the wall so our eclectic taste in
+						music is
+						always changing. We like to read the room and see how you are feeling and match your moods with
+						music that suits or failing that lift your mood with music. We have resident DJ's that play
+						regularly and often share their time slots with local DJ's who are new to the music scene and
+						trying
+						to get their music heard.
+						We also have an in house disco every 2 months hosted by our very own promoter Miss Tangerine. We
+						believe our music caters to everyone and we try to keep a close eye to the music scene and a
+						close
+						ear to the street so we can ever change our style and try to bring you the newest local talent.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -114,127 +107,192 @@
 									<h2>Music</h2>
 									<img class="drinks-card drinks img-fluid" src="assets/images/music.png" alt="cocktail" style="width:100%">
 								</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- /.card menus -->
+				<!-- /.card menus -->
 
-			<!-- regal about -->
+				<!-- regal about -->
 
-			<div class="container-fluid regal-container">
+				<div class="container-fluid regal-container">
 
-				<div class="row">
-					<div class="col-12">
+					<div class="row">
+						<div class="col-12">
 
-						<h3>
-							<center>Regal Disco</center>
-						</h3>
-						<hr>
-						<p>
-							<center>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati quo
-								laboriosam.
-								Voluptates eius eos autem quam. Necessitatibus, id? Vitae aperiam facilis eum suscipit
-								deserunt veritatis beatae? Unde, qui similique!</center>
-						</p>
+							<h3>
+								<center>Regal Disco</center>
+							</h3>
+							<hr>
+							<div class="center">
+								<p>
+									Our very own Miss Tangerine throws the liveliest of discos at Blinker bar. Always a
+									vibrant and intoxicating experience, Regal Disco brings you the best of carefully
+									selected Afrobeat, cumbia, global bass and tropical sounds from around the globe –
+									so boogying lunacy is sure to ensue. </p>
+							</div>
+						</div>
 					</div>
-				</div>
+				</div> <br>
+				<br>
+				<br>
+				<br>
 
-			</div>
-			<br>
-			<br>
-			<br>
-			<br>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-12 ">
+				<div class="container-fluid">
+					<div class="row">
 
 						<div id="regal">
-							<div class="jumbotron jumbotron-regal">
-								
-								<h3>
-									<center>Regal Disco</center>
-								</h3>
-								<hr>
-								<p>
-									<center>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati
-										quo
-										laboriosam.
-										Voluptates eius eos autem quam. Necessitatibus, id? Vitae aperiam facilis eum
-										suscipit
-										deserunt veritatis beatae? Unde, qui similique!</center>
-								</p>
 
+							<div class="jumbotron jumbotron-regal">
+								<div class="col-12 ">
+									<h3>
+										<center>Regal Disco</center>
+									</h3>
+									<hr>
+									<p>
+										After the success of last months party, we are excited to be
+										inviting Regal Disco back to curate the after-party Blinker
+										bar.
+										Regal Disco wouldn’t be the same without their magnificent
+										resident DJs Long Gyl ‘Out of Quiet’ AKA L BOOGIE and Sunny
+										Wray (both resident DJ's in Blinker}.
+
+										Out Of Quiet alias of DJ, Lowell Walbank, whose weekly
+										excursions on Reform Radio celebrate sounds from around the
+										world and across the spectrum. After years DJing together as
+										part of the Mind On Fire Collective, they have been working
+										together but not alongside each other at Blinker. he’s
+										reunited once again with fellow Mind On Fire selector Sunny
+										Wray, who will be bringing us some Caliente beats from his
+										recent excursion to Barcelona.
+
+										Miss Puerto Rico is bringing you some Latina fire!
+										You know her from her amazing Reform Radio show and she’s
+										been behind the decks with us before and at last year’s
+										SFTOC. She knows what makes you wanna move your body all
+										night and she has killer fan skills!
+
+										Also playing the sexy duo King Bongo, Djs Bingo Bingo and
+										Bobbyganoush.
+
+										Bingo Bingo is part of the well known one five-eight crew,
+										he’s the co-presenter of their bi-weekly show on Reform
+										Radio. An absolute gem of a show. He also used to DJ at
+										Herbal Sessions.
+										Bobbyganoush is a massive music passionate and will know how
+										to make you wanna shake what you’ve got.
+
+										CONCEPT: Tropical dream catcher all over the club and
+										balloons as well as confetti guns and glitter face paint.
+
+
+									</p>
+
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<h2 class="dj-heading">
-							<center>Resident DJ's</center>
-							<hr>
-						</h2>
-						<P>
-							<center>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fugit
-								laboriosam,
-								eveniet totam
-								tempore cum quis recusandae fuga optio molestias vero? Iure at assumenda itaque
-								dolore omnis
-								voluptate commodi iusto.</center>
-						</P>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="dj-heading">
+								<center>Resident DJ's</center>
+								<hr>
+							</h2>
+							<P class="center">
+								Our two resident DJ's Sunny Wray and DJ Long guy are two long-time
+								collaborators and
+								have been making waves in the local scene for some years now.
+								Dividing the week between
+								them they are always on hand to make sure the atmosphere is just
+								right. Knowing how to
+								read the vibe of the room is an essential part of creating a good
+								night out, so expect
+								the music to be continuously changing with the mood of the people.
+							</P>
+						</div>
 					</div>
 				</div>
-			</div>
 
 
 
-			<!-- /.regal about -->
+				<!-- /.regal about -->
 
-			<!-- resident dj's -->
-			<div class="container card-wrapper">
+				<!-- resident dj's -->
+				<div class="container card-wrapper">
 
-				<div class="card-deck">
-					<div class="card card2">
-						<img src="assets/images/good-times.jpg" alt="card background" class="background-dj">
-						<img src="assets/images/sunny.jpg" alt="DJ-Sunny" class="dj-image">
-						<h3>Sunny Wray</h3>
-						<p>Resident DJ</p>
-						<p> <strong> Music Style </strong>- Grime, Jazz, Bashment and Reggae</p>
-
-
-					</div>
-					<div class="card card2">
-						<img src="assets/images/good-times.jpg" alt="card background" class="background-dj">
-						<img src="assets/images/Lowell.jpg" alt="DJ-Sunny" class="dj-image">
-
-						<h3>Sunny Wray</h3>
-						<p>Resident DJ</p>
-						<p></p>
+					<div class="card-deck">
+						<div class="card card2">
+							<img src="assets/images/good-times.jpg" alt="card background" class="background-dj">
+							<img src="assets/images/sunny.jpg" alt="DJ-Sunny" class="dj-image">
+							<h3>Sunny Wray</h3>
+							<p>Resident DJ</p>
+							<p><strong> Music Style </strong>- Grime, Jazz, Bashment and Reggae.</p>
+							<p><strong>Days he plays </strong> Monday, Wednesday, Friday..</p>
 
 
+						</div>
+						<div class="card card2">
+							<img src="assets/images/good-times.jpg" alt="card background" class="background-dj">
+							<img src="assets/images/Lowell.jpg" alt="DJ-Sunny" class="dj-image">
+
+							<h3>DJ Long Guy</h3>
+							<p>Resident DJ</p>
+							<p>
+								<p><strong> Music Style </strong>- Electro, Techno, Rap and Country.
+								</p>
+								<p><strong>Days he plays </strong> Tuesday, Thursday, Saturday..</p>
+
+
+
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	</div>
 	<!-- /.resident dj's  -->
 
 	<!-- footer  -->
 	<div class="footer">
+		<div class="container">
+			<div class="row">
 
-		<nav>
-			<ul class="footer-items">
-				<li><a href="drinks.html">Drinks</a></li>
-				<li><a href="music.html">Music</a></li>
-				<li><a href="goodtimes.html">Good Times</a></li>
-			</ul>
-		</nav>
+				<ul>
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+								<span class="sr-only">Linkedin</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+					</ul>
+				</ul>
+			</div>
+		</div>
 	</div>
+	</div>
+
 	<!-- /.footer  -->
 </body>
 

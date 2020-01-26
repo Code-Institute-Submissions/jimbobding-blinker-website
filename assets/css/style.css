@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto');
 
-
-h1.goodtimes-head {
-    color: rgb(187, 10, 30);
-    font-size: 58px;
-    letter-spacing: 2px;
-}
-
-p.goodtimes-head {
-    color: rgb(241, 180, 187);
-    font-size: 22px;
-}
-
 body {  
     font-family: 'Noto';
     display: grid;
@@ -22,6 +10,104 @@ body {
     margin: 0;
     font-size: 18px;
 }
+
+
+/*-----------------------------navbar*/
+
+.logo {
+    float: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+
+nav 
+ {
+    text-decoration: none;
+}
+
+nav {
+    
+    align-items: right;
+    min-height: 10vh;
+    background-color:  rgba(72, 153, 114, 2);
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    border: 1px solid black;
+    z-index: 3;
+    
+}
+
+.nav {
+    
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    z-index: 3;
+    display: flex;
+    justify-content: flex-end;
+    
+   
+    
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color:black;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        background-color:  rgba(72, 153, 114, .5;);
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid black;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: inline
+    }
+    #landing-page {
+        display: none
+    }
+    
+}
+
+
 
 .header {
     width: 100%;
@@ -38,58 +124,7 @@ body {
     width: 100vw;
 }
 
-/*-----------------------------navbar*/
 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: right;
-    min-height: 10vh;
-    background-color:  rgba(72, 153, 114, 2);
-    padding: 0;
-    position: fixed;
-    width: 100%;
-    border: 1px solid black;
-    z-index: 3;
-}
-   
-    
-.nav-links {
-    display: flex;
-    justify-content: flex-end;
-    width: 50%;
-}
-
-.nav-links a {
-
-    text-decoration: none;
-    font-size: 15px;
-    letter-spacing: 3px;
-    color: black;
-    padding: 15px;
-}
-
-    
- nav li {
-     display: inline;
-     margin-top: 20px;
-       }
-
-.name {
-    text-align: center;
-}
-
-
-.logo {
-    float: right;
-    padding-left: 20px;
-    padding-top: 15px;
-    text-transform: uppercase;
-}
-
-h5  {
-    font-size: 30px;
-}
 
 
 /*-----------------------------about section*/
@@ -192,19 +227,43 @@ h5  {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    justify-content: center;
     }
 
-   table {
-       align-content: center;
+h5 {
+    font-size: 28px;
+}
+
+   .opening-heading {
+    margin-left: 40%;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+.opening-hours {
+    font-size: 18px;
+}
+
+
+
+   table {  
+    margin-left: 40%;
+
    }
+  
+  th  {
+      margin-right: 5px;
+  }
+
+
 
 /*-----------------------------drinks-landing*/
 
 
 #drinks-landing {
     background-attachment: fixed;
-    background-image: url("../images/IMG_6064.jpg");
-    background-position: bottom;
+    background-image: url("../images/IMG_6063.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -212,7 +271,59 @@ h5  {
     padding-top: 20px;
 }
 
-/*-----------------------------drinks-page*/
+/*-----------------------------headings*/
+.blinker-heading  {
+    color: black;
+    font-size: 58px;
+    letter-spacing: 5px;
+    margin-left: 21px;
+    }
+
+ .blinker-p   {   
+     color: black;
+    font-size: 22px;}
+
+
+.name {
+    text-align: center;
+}
+
+.goodtimes-heading {
+    color: rgb(187, 10, 30);
+    font-size: 58px;
+    letter-spacing: 5px;
+    margin-left: 21px;
+}
+
+.goodtimes-p {
+   color: rgb(241, 180, 187);
+    font-size: 22px;}
+   
+}
+
+.drinks-heading {
+    color: rgb(187, 10, 30);
+    font-size: 58px;
+    letter-spacing: 5px;
+    margin-left: 21px;
+  
+}
+
+.drinks {
+     color: rgb(241, 180, 187);
+    font-size: 22px;
+}
+
+.music-heading {
+ color:#3553ff;
+    font-size: 58px;
+    letter-spacing: 2px;
+}
+
+.music-p {
+     color: black;
+    font-size: 22px;
+}
 
 
 .cocktails-heading {
@@ -224,6 +335,11 @@ h5  {
     padding-top: 100px;
 }
 
+.beer-heading {
+    padding-top: 100px;
+}
+
+/*-----------------------------drinks-page*/
 
 hr {
     background-color: red;
@@ -248,23 +364,12 @@ hr {
  margin-top: 20px;
 }
 
-.drinks-heading {
-    font-size: 75px;
-color: #f5f5f5;
-}
-
-.drinks {
-    font-size: 35px;
-    color: rgba(72, 153, 114, .25);
-}
-
 .cocktail {
     content: center;
-
 }
 
 .wine-container {
-  background-color: rgba(245,245,245, .5);
+  background-color: rgba(235, 10, 10, 0.5);
 }
 
 #wine-section {
@@ -275,7 +380,6 @@ color: #f5f5f5;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-
 }
 
 /*-----------------------------music-landing*/
@@ -293,8 +397,8 @@ color: #f5f5f5;
 /*-----------------------------jumbotron*/
 
 .jumbotron-hours {
-       background-color: rgba(255, 225, 53, .90);
-        margin-top: 120px;
+    background-color: rgba(255, 225, 53, .90);
+    margin-top: 90px;
     }
 
 .jumbotron-booking {
@@ -303,8 +407,8 @@ color: #f5f5f5;
 }
 
 .jumbotron-regal {
-    background-color: rgba(83, 51, 237, .90);
-    margin-top: 20px;
+    background-color: rgba(255,192,203 ,.90);
+    margin-top: 120px;
 }
 /*-----------------------------footer*/
 
@@ -313,29 +417,11 @@ color: #f5f5f5;
     width: 100%;
     position: fixed;
     bottom: 0px;
+    height: 50px;
     min-height: 10vh;
     background-color:  rgba(72, 153, 114, 2);
     z-index: 3;
    padding-left: -15px;
-}
-
-.footer-items a {    
-    text-decoration: none;
-    font-size: 17px;
-    letter-spacing: 3px;
-    color: black;
-    padding: 15px;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-
-.footer-items {
-   padding-top: 20px;
-}
-
-  a {
-   text-decoration: none;
-   display: inline;
 }
 
  /*-----------------------------dj .cards1*/
@@ -359,7 +445,6 @@ color: #f5f5f5;
      height: 40%;
      -webkit-clip-path: polygon(0 0, 100% 0, 100% 83%, 0 34%);
      clip-path: polygon(0 0, 100% 0, 100% 83%, 0 34%);
-
  }
 
 .dj-image {
@@ -370,26 +455,15 @@ color: #f5f5f5;
     margin-top: -11rem;
     border: 1px solid green;
     z-index: 2;
-
 }
 
 .dj-heading {
     padding-top: 20px;
-    align-content: center;
-   
+    align-content: center;  
 }
 /*-----------------------------booking form*/
 
-table {
-    margin-left: 30%;
-     
-   
-}
 
- table tr {
-   justify-content: space-between;
-
-}
 
 #bookings-pic {
     background-attachment: fixed;
@@ -408,8 +482,7 @@ table {
 }
 
 .form-group {
-    width: 60%;
-   
+    width: 60%;  
 }
 
 #form-month {
@@ -418,32 +491,59 @@ table {
 
 #goodtimes-landing {
     background-attachment: fixed;
-    background-image: url("../images/ben-n-pots.jpg");
+    background-image: url("../images/rsz_ben-n-pots.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
 }
-
-
-
 
 
 #regal {
     background-attachment: fixed;
-    background-image: url("../images/regal-disco.jpg");
-    background-position: bottom;
+    background-image: url("../images/regal-disco.jpg");  
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-   justify-content: center;
-   border-radius: 5%;
+    justify-content: center;
+    border-radius: 5%;
 }
-
 
 .regal-container {
     padding-top: 30px;
 }
 
+.center {
+     text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    padding-top: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center; 
+    color:  #fafafa;    
+    background:  rgba(72, 153, 114, 1);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+     background:  rgba(72, 153, 114, 1);
+}
+
+
+
+rgba(72, 153, 114, 1);

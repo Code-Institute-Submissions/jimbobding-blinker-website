@@ -21,13 +21,7 @@
 </head>
 
 <body>
-	<header class="header">
-		<h3>Blinker</h3>
-	</header>
-	<!-- landing -->
-
-	<div class="container-fluid "></div>
-	<nav class="fixed">
+	<nav>
 		<header>
 			<div class="logo">
 				<a href="index.html">
@@ -35,13 +29,20 @@
 				</a>
 			</div>
 		</header>
-		<ul class="nav-links navbar-collapse ">
 
-			<li><a href="#who_we_are">Who We Are</a></li>
-			<li><a href="#drinks_music_&_goodtimes"> Drinks Music & Good Times</a></li>
-			<li><a href="#when_we_are_open">When We Are Open</a></li>
+
+		<div class="nav">
+			<label for="toggle">&#9776</label>
+			<input type="checkbox" id="toggle"/>
+			<div class="menu">
+				<a href="#who_we_are">Who We Are</a>
+				<a href="#drinks_music_&_goodtimes"> Drinks Music & Good Times</a>
+				<a href="#when_we_are_open">When We Are Open</a>
+
+			</div>
+		</div>
+
 	</nav>
-	</ul>
 	<div id="goodtimes-landing">
 		<div class="container name">
 			<br>
@@ -54,8 +55,8 @@
 			<br>
 			<br>
 			<br>
-			<h1 class="goodtimes-head">Good Times</h1>
-			<p class="goodtimes-head">Book Your Good Times</p>
+			<h1 class="goodtimes-heading">Good Times</h1>
+			<p class="goodtimes-p">Book Your Good Times</p>
 		</div>
 	</div>
 	<!-- /.landing -->
@@ -76,7 +77,7 @@
 						to book and rough idea of what you have in mind we will do our best to accommodate you and your
 						party. It may take up to 24 hours but one of events team will get back to you to finalise the
 						details.
-						</center>
+					</center>
 				</p>
 			</div>
 		</div>
@@ -166,23 +167,48 @@
 								<textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
 							</div>
 					</form>
-
-
 				</div>
-
-	</div>			<!-- /.wine list -->
+			</div>
+			<!-- /.wine list -->
 
 			<div class="footer">
+				<div class="container">
+					<div class="row">
 
-						<nav>
-							<ul class="footer-items">
-								<li><a href="drinks.html">Drinks</a></li>
-								<li><a href="music.html">Music</a></li>
-								<li><a href="goodtimes.html">Good Times</a></li>
-							</ul>
-						</nav>
+
+						<ul class="list-inline social-links">
+							<li class="list-inline-item">
+								<a target="_blank" href="">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+									<span class="sr-only">Twitter</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="">
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+									<span class="sr-only">Linkedin</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+									<span class="sr-only">Instagram</span>
+								</a>
+							</li>
+						
+						</ul>
 					</div>
-				
+				</div>
+			</div>
+		</div>
+
+
 
 </body>
 
