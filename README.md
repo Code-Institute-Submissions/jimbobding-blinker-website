@@ -1,6 +1,6 @@
 
 
-UX
+**UX**
 ----------
 
 The aim is to  make a website that allows the user to easily navigate around the site whilst looking sleek and not over congested.
@@ -27,11 +27,12 @@ Technologies
 
 
 
-Media 
+Media - text in red
 ----------
 
 All the photos were donated by Loop Roof bar in Melbourne Australia, Cocktails Beers Ramen and Buns
 in Manchester England and from Regal Disco also In Manchester England.
+
 
 
 
