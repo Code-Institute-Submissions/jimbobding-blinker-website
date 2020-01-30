@@ -36,11 +36,11 @@ in Manchester England and from Regal Disco also In Manchester England.
 
 
 
+All pictures, menus and coy are interchangable and should serve as a demonstration for the client on what a site may look like.
 
 
 
-
-Credits ****
+Credits
 ----------
 
 The playing card navigation bar was inspired by and uses some code credited to - Chris Coyler css tricks .com

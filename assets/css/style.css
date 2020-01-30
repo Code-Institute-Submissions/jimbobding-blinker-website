@@ -9,12 +9,10 @@ body {
     padding: 0;
     margin: 0;
     font-size: 18px;
+    height: 100%;
+    width: 100%;
+ 
 }
-
-.card h2 a {
-    text-decoration: none;
-}
-
 
 /*-----------------------------navbar*/
 
@@ -24,19 +22,22 @@ body {
     padding-top: 15px;
     text-transform: uppercase;
     font-size: 25px;
-    text-decoration: none;
-   
-    
+       
 }
 
 .logo a {
- text-decoration: none;
+    color: black;
+     text-decoration: none;
 }
 
+a:hover {
+   color: blue;
+}
 
 nav {
     
     align-items: right;
+    height: 70px;
     min-height: 10vh;
     background-color:  rgba(72, 153, 114, 2);
     padding: 0;
@@ -56,21 +57,22 @@ nav {
     display: flex;
     justify-content: flex-end;
     
-   
+
     
 }
 .menu {
     margin: 0 30px 0 0;
+    
+   
 }
 .menu a {
     clear: right;
     text-decoration: none;
     color:black;
     margin: 0 10px;
-    line-height: 70px;
+    line-height: 50px;
     font-size: 22px;
 }
-
 
 
 label {
@@ -87,51 +89,97 @@ label {
 }
 
 
+
 @media only screen and (max-width: 700px) {
     label {
         display: block;
         cursor: pointer;
+        padding-right: 0px;
     }
     .menu {
         text-align: center;
-        width: 100%;
+        width: 100vw;
         display: none;
-        background-color:  rgba(72, 153, 114, .5;);
+        background-color:  peachpuff;
+        height: 100%;
+        padding: 0px;
     }
-    .menu a {
+  
+    #toggle:checked + .menu {
+        display: inline;
+    }
+    
+    #toggle {
+        padding-right: 20px;
+    }
+   
+ .menu  a {
         display: block;
         border-bottom: 1px solid black;
+        border-top: 1px solid black;
         margin: 0;
      
     }
-    #toggle:checked + .menu {
-        display: inline
-    }
-    #landing-page {
-        display: none
-    }
-    
+   
+#regal {
+    display:none;
+}
+   
 }
 
+/*-----------------------------footer*/
 
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    min-height: 10vh;
+    background-color:  rgba(72, 153, 114, 2);
+    z-index: 3;
+   padding-left: -15px;
+}
 
 .header {
     width: 100%;
     background-color: 3355FF;
 }
 
-#landing-page {
-    background-attachment: fixed;
-    background-image: url("../images/Loop-Top3 (2).jpg");
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+
+.name {
+    margin-top: 20%;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    padding-top: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center; 
+    color:  #fafafa;    
+    background:  rgba(72, 153, 114, 1);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+     background:  rgba(72, 153, 114, 1);
 }
 
 
-
+.col-booking {
+    margin-top: 60px;
+}
 
 /*-----------------------------about section*/
 
@@ -205,8 +253,13 @@ label {
 
     .card1:hover  ~ .card1 {
        transform: translateX(8rem);
+     }
 
-    }
+.card h2 a {
+    color: white;
+    text-decoration: none;
+}
+
  @media (max-width: 600px){
  .cards1 {
          margin-left: 0;
@@ -225,7 +278,7 @@ label {
     }
 /*-----------------------------opening hours*/
 
-    .details-container {
+ .details-container {
     background-attachment: fixed;
     background-image: url("../images/Loop-Top1.jpg");
     background-position: bottom;
@@ -240,7 +293,7 @@ h5 {
     font-size: 28px;
 }
 
-   .opening-heading {
+.opening-heading {
     margin-left: 40%;
     padding-bottom: 20px;
     font-size: 28px;
@@ -249,8 +302,6 @@ h5 {
 .opening-hours {
     font-size: 18px;
 }
-
-
 
    table {  
     margin-left: 40%;
@@ -261,21 +312,6 @@ h5 {
       margin-right: 5px;
   }
 
-
-
-/*-----------------------------drinks-landing*/
-
-
-#drinks-landing {
-    background-attachment: fixed;
-    background-image: url("../images/IMG_6063.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    padding-top: 20px;
-}
 
 /*-----------------------------headings*/
 .blinker-heading  {
@@ -312,13 +348,16 @@ h5 {
     font-size: 58px;
     letter-spacing: 5px;
     margin-left: 21px;
-  
+    margin-top: 15%;
 }
+  
+
 
 .drinks {
      color: rgb(241, 180, 187);
     font-size: 22px;
 }
+
 
 .music-heading {
  color:#3553ff;
@@ -345,6 +384,14 @@ h5 {
     padding-top: 100px;
 }
 
+.dj-heading {
+    margin-top: 30px;
+}
+
+.header-desktop {
+    margin-top: 40px;
+}
+
 /*-----------------------------drinks-page*/
 
 hr {
@@ -364,14 +411,15 @@ hr {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-}
-
-.wine-name {
- margin-top: 20px;
+    margin-top: 100px;
 }
 
 .cocktail {
     content: center;
+}
+
+.wine-name {
+ margin-top: 20px;
 }
 
 .wine-container {
@@ -384,21 +432,10 @@ hr {
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
-/*-----------------------------music-landing*/
-
-#music-landing {
-    background-attachment: fixed;
-    background-image: url("../images/lowell-sunny.jpg");
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-}
 
 /*-----------------------------jumbotron*/
 
@@ -408,27 +445,17 @@ hr {
     }
 
 .jumbotron-booking {
-   padding-top: 20px;
+   padding-top: 40px;
    background-color: rgba(83, 51, 237, .90);
 }
 
 .jumbotron-regal {
     background-color: rgba(255,192,203 ,.90);
-    margin-top: 60px;
+    margin-top: 40px;
 }
-/*-----------------------------footer*/
 
 
-.footer{
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
-    height: 50px;
-    min-height: 10vh;
-    background-color:  rgba(72, 153, 114, 2);
-    z-index: 3;
-   padding-left: -15px;
-}
+
 
  /*-----------------------------dj .cards1*/
 
@@ -463,10 +490,27 @@ hr {
     z-index: 2;
 }
 
-.dj-heading {
-    padding-top: 20px;
-    align-content: center;  
+
+
+@media screen and (min-width: 700px) {
+    .card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card {
+        margin: 2rem;
+    }
+
+ 
+ 
+
 }
+
+
 /*-----------------------------booking form*/
 
 
@@ -495,15 +539,7 @@ hr {
     width: 150px;
 }
 
-#goodtimes-landing {
-    background-attachment: fixed;
-    background-image: url("../images/rsz_ben-n-pots.jpg");
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-}
+
 
 
 #regal {
@@ -517,7 +553,9 @@ hr {
     border-radius: 5%;
 }
 
+
 .regal-container {
+    padding-bottom: 50px;
     padding-top: 30px;
 }
 
@@ -525,31 +563,102 @@ hr {
      text-align: center;
 }
 
-.social-links {
-    padding-bottom: 15px;
+
+/*-----------------------------landing pictures*/
+
+#goodtimes-landing {
+    background-attachment: fixed;
+    background-image: url("../images/rsz_ben-n-pots.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
 }
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px;
+#music-landing {
+    background-attachment: fixed;
+    background-image: url("../images/lowell-sunny.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#drinks-landing {
+    background-attachment: fixed;
+    background-image: url("../images/IMG_6063.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
     padding-top: 20px;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center; 
-    color:  #fafafa;    
-    background:  rgba(72, 153, 114, 1);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-     background:  rgba(72, 153, 114, 1);
+#landing-page {
+    background-attachment: fixed;
+    background-image: url("../images/Loop-Top3 (2).jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+@media only screen and (max-width: 700px) {
+
+    #landing-page  {
+        display: none;
+    }
+
+    #drinks-landing {
+         display: none;
+    }
+
+    #music-landing {
+        display: none; 
+    }
+
+    #goodtimes-landing {
+       display: none; 
+    }
+
+    .name {
+        margin-top: 50px;
+    }
+
+.dj-heading {
+    margin-top: 450px;
+}
+
+.header-mobile {
+    margin-top: 80px;
+}
+
+#wine-section {
+    display: none;
+}
+
 }
 
 
+.booking-container {
+    margin-top: 40px;
+}
 
-rgba(72, 153, 114, 1);
+
+.address {
+    float: right;
+    padding-left: 14rem;
+
+    
+}
+
+
+@media only screen and (min-width: 700px) {
+    .wine-mobile {
+        display: none;
+    }
+}
