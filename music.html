@@ -15,34 +15,35 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css">
+     <script src="https://kit.fontawesome.com/53108b937c.js" crossorigin="anonymous"></script>
 	<title>Bar</title>
 
 
 </head>
 
 <body>
-	<nav>
-		<header>
-			<div class="logo">
-				<a href="index.html">
-					<h5>Blinker</h5>
-				</a>
-			</div>
-		</header>
+		<div class="header">
+		     <h2 class="logo">Blinker</h2>
+		     <input type="checkbox" id="chk">
+	     <label for="chk" class="show-menu-btn">
+            <i class=" burger fas fa-hamburger"></i>
+         </label>
+		<ul class="menu">
+			<a href="drinks.html">Drinks</a>
+			<a href="music.html">Music</a>
+			<a href="goodtimes.html">Good Times</a>
+			<a href="test.html">tests</a>
+
+			<label for="chk" class="hide-menu-btn" >
+              <i class="fas fa-times"></i>
+            </label>
+		</ul>
 
 
-		<div class="nav">
-			<label for="toggle">&#9776</label>
-			<input type="checkbox" id="toggle"/>
-			<div class="menu">
-				<a href="drinks.html">Drinks</a>
-				<a href="music.html">Music</a>
-				<a href="goodtimes.html">Good Times</a>
+	</div>
 
-			</div>
-		</div>
 
-	</nav>
+	
 	<div id="music-landing">
 		<div class="container name">
 			
@@ -86,16 +87,16 @@
 					<div class="cards cards1">
 						<div class=" card card1 card-color">
 							<h2>Regal Disco</h2>
-							<img class="drinks-card drinks  img-fluid" src="assets/images/regal-2.jpg" alt="cocktail" style="width:100%">
+							<img class="drinks-card drinks  img-fluid" src="assets/images/regal-2.jpg" alt="regal disco poster" style="width:100%">
 
 						</div>
 							<div class=" card card1 card-color">
 								<h2>Resident DJ's</h2>
-								<img class="drinks-card drinks img-fluid" src="assets/images/bob.jpg" alt="cocktail" style="width:100%">
+								<img class="drinks-card drinks img-fluid" src="assets/images/bob.jpg" alt="picture of a dj" style="width:100%">
 						</div>
 								<div class="card card1 card-color">
 									<h2>Music</h2>
-									<img class="drinks-card drinks img-fluid" src="assets/images/music.png" alt="cocktail" style="width:100%">
+									<img class="drinks-card drinks img-fluid" src="assets/images/music.png" alt="picture of a music note" style="width:100%">
 								</div>
 								</div>
 							</div>
@@ -204,8 +205,8 @@
 
 					<div class="card-deck">
 						<div class="card card2">
-							<img src="assets/images/good-times.jpg" alt="card background" class="background-dj">
-							<img src="assets/images/sunny.jpg" alt="DJ-Sunny" class="dj-image">
+							<img src="assets/images/good-times.jpg" alt="picture of people dancing" class="background-dj">
+							<img src="assets/images/sunny.jpg" alt="picture of a dj" class="dj-image">
 							<h3>Sunny Wray</h3>
 							<p>Resident DJ</p>
 							<p><strong> Music Style </strong>- Grime, Jazz, Bashment and Reggae.</p>
@@ -214,8 +215,8 @@
 
 						</div>
 						<div class="card card2">
-							<img src="assets/images/good-times.jpg" alt="card background" class="background-dj">
-							<img src="assets/images/Lowell.jpg" alt="DJ-Sunny" class="dj-image">
+							<img src="assets/images/good-times.jpg" alt="picture of people dancing" class="background-dj">
+							<img src="assets/images/Lowell.jpg" alt="picture of a dj" class="dj-image">
 
 							<h3>DJ Long Guy</h3>
 							<p>Resident DJ</p>
@@ -235,40 +236,45 @@
 	</div>
 	</div>
 	<!-- /.resident dj's  -->
+<div class="container music-footer-pic">
+<div class="row">
+<div class="col">
 
+</div>
+</div>
+
+</div>
 	<!-- footer  -->
 	<div class="footer">
 		<div class="container">
 			<div class="row">
 
-				<ul>
-					<ul class="list-inline social-links">
-						<li class="list-inline-item">
-							<a target="_blank" href="">
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<span class="sr-only">Facebook</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="">
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<span class="sr-only">Twitter</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="">
-								<i class="fa fa-linkedin" aria-hidden="true"></i>
-								<span class="sr-only">Linkedin</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="">
-								<i class="fa fa-instagram" aria-hidden="true"></i>
-								<span class="sr-only">Instagram</span>
-							</a>
-						</li>
-					</ul>
-				</ul>
+				<ul class="list-inline social-links">
+							<li class="list-inline-item">
+								<a target="_blank" href="">
+									<i class="fab fa-facebook-f"></i>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="">
+									<i class="fab fa-twitter"></i>
+									<span class="sr-only">Twitter</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="">
+								<i class="fab fa-linkedin-in"></i>
+									<span class="sr-only">Linkedin</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="">
+									<i class="fab fa-instagram"></i>
+									<span class="sr-only">Instagram</span>
+								</a>
+							</li>
+						</ul>
 			</div>
 		</div>
 	</div>

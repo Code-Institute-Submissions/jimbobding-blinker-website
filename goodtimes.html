@@ -15,34 +15,31 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css">
+     <script src="https://kit.fontawesome.com/53108b937c.js" crossorigin="anonymous"></script>
 	<title>Bar</title>
 
 
 </head>
 
 <body>
-	<nav>
-		<header>
-			<div class="logo">
-				<a href="index.html">
-					<h5>Blinker</h5>
-				</a>
-			</div>
-		</header>
+	<div class="header">
+		<h2 class="logo">Blinker</h2>
+		<input type="checkbox" id="chk">
+		<label for="chk" class="show-menu-btn" >
+<i class=" burger fas fa-hamburger"></i>
+</label>
+		<ul class="menu">
+			<a href="drinks.html">Drinks</a>
+			<a href="music.html">Music</a>
+			<a href="goodtimes.html">Good Times</a>
+			<a href="test.html">tests</a>
+			<label for="chk" class="hide-menu-btn" >
+<i class="fas fa-times"></i>
+</label>
+		</ul>
 
 
-		<div class="nav">
-			<label for="toggle">&#9776</label>
-			<input type="checkbox" id="toggle"/>
-			<div class="menu">
-				<a href="drinks.html">Drinks</a>
-				<a href="music.html">Music</a>
-				<a href="goodtimes.html">Good Times</a>
-
-			</div>
-		</div>
-
-	</nav>
+	</div>
 	<div id="goodtimes-landing">
 		<div class="container name">
 
@@ -68,6 +65,8 @@
 						to book and rough idea of what you have in mind we will do our best to accommodate you and your
 						party. It may take up to 24 hours but one of events team will get back to you to finalise the
 						details.
+
+						<i class="fas fa-wine-glass-alt"></i>
 					</div>
 				</p>
 			</div>
@@ -76,28 +75,24 @@
 
 	<!-- /.about -->
 	<!-- booking form -->
-	>
+
 	<div class="container-fluid booking-container" id="bookings-pic">
 
 		<div class="row">
 			<div class="col">
-
 				<br>
 				<br>
 				<br>
 				<br>
 				<br>
 				<div class="jumbotron jumbotron-booking">
-
-
 					<form>
-						<div class="form-group">
-							<label for="exampleFormControlInput1">Email address</label>
+						<div class="form-group ">
 							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
      </div>
-							<div class="form-group">
-								<label for="exampleFormControlSelect1">What Day</label>
+							<div class="form-group ">
 								<select class="form-control" id="form-month">
+      <option>Pick your day</option>                        
       <option>1</option>
       <option>2</option>
       <option>3</option>
@@ -131,9 +126,9 @@
       <option>31</option>
      </select>
 							</div>
-							<div class="form-group">
-								<label for="exampleFormControlSelect1">What Month</label>
+							<div class="form-group form-details-mobile">
 								<select class="form-control" id="form-month">
+     <option>Pick your month</option>	                  
       <option>Jan</option>
       <option>Feb</option>
       <option>Mar</option>
@@ -146,11 +141,9 @@
       <option>Oct</option>
       <option>Nov</option>
       <option>Dec</option>
-
      </select>
 							</div>
 							<div class="form-group">
-								<label for="exampleFormControlTextarea1">What Do You Want</label>
 								<textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="message"></textarea>
 							</div>
 							<div class="col-auto button">
@@ -160,12 +153,10 @@
 				</div>
 			</div>
 			<!-- /.booking form -->
-
+			<i class="fas fa-wine-glass-alt"></i>
 			<div class="footer">
 				<div class="container">
 					<div class="row">
-
-
 						<ul class="list-inline social-links">
 							<li class="list-inline-item">
 								<a target="_blank" href="">
@@ -191,15 +182,11 @@
 									<span class="sr-only">Instagram</span>
 								</a>
 							</li>
-
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-
-
-
 </body>
 
 </html>
