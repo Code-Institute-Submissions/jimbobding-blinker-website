@@ -179,11 +179,6 @@ i > .burger {
     margin-bottom: 6rem;
 }
 
-.about-row {
-    color: black;
-}
-
-
  .menus-container  {  
     padding: 0;
   
@@ -196,7 +191,7 @@ i > .burger {
     place-items: bottom;
 }
 
- .move {
+ .cards-center {
         place-content: center;
     }
     
@@ -204,7 +199,7 @@ i > .burger {
      height: 300px;
      object-fit: cover;
      overflow: hidden;
-    
+     width: auto;  
         }
 
 .cards1 {
@@ -299,8 +294,9 @@ h5 {
   th  {
       margin-right: 5px;
   }
-
-
+@media screen and (max-width:700px){
+   .hours: {margin-left: 20%}
+}
 /*-----------------------------headings*/
 .blinker-heading  {
     color: black;
@@ -634,9 +630,6 @@ hr {
 }
 
 
-
-
-
 .header-mobile {
     margin-top: 80px;
 }
@@ -647,7 +640,6 @@ hr {
 
 }
 
-
 @media only screen and (min-width: 700px) {
     .wine-mobile {
         display: none;
@@ -655,6 +647,22 @@ hr {
    .drinks-details-container {
        display: none;
    }
+
+   
 }
 
+.details-container {
+    width: 100%;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+ @media only screen and (max-width: 700px) {
+.cards {
+    display:none;
+}
 
