@@ -36,7 +36,7 @@ A live demo can be found here. [here](https://8000-e494f380-bec5-42b5-bb5c-d0d29
 ----------
 
 All the photos were donated by Loop Roof bar in Melbourne Australia, Cocktails Beers Ramen and Buns
-in Manchester England and from [Regal-Disco](https://www.facebook.com/regaldisco/)   also In Manchester England.
+in Manchester England and from [Regal Disco](https://www.facebook.com/regaldisco/) also In Manchester England.
 
 
 
@@ -60,6 +60,13 @@ https://www.youtube.com/watch?v=cQ6YQ8K5MRw
 
 General inspiration for my site was taken from [eau-de-vie](http://www.eaudevie.com.au/) and [bad-luck-bar](http://www.badluckbar.com/)
 
+**Wireframes**
+
+[landing-page](wireframe/landing-page-desktop-mobile.jpg)
+[nav-cards](wireframe/cards-desktop.jpg)
+[menu-nav-cards](wireframe/menu-cards-desk-mob.jpg)
+[hamburger-menu](wireframe/opening-hours-desk-mob.jpg)
+[drinks-menu](wireframe/wine-menu-desk-mob.jpg)
 
 **Deployment**
 ----------
@@ -67,7 +74,9 @@ General inspiration for my site was taken from [eau-de-vie](http://www.eaudevie.
 I tested the website on multiple browsers and platforms, including a desktop, I pad and a mobile device. 
 This was to test compatibility and responsiveness. I have added screenshots from said devices.
 
-[mobile](devices/mobile)
+[mobile](devices/mobile/card-nav-mob.png)
+[ipad](devices/beer-list-ipad.png)
+[desktop](devices/mobile/booking-form-desk.png)
 
 
 
@@ -94,7 +103,6 @@ Drinks page
 
 Music page
 ----------
-
  - Sound bites and links to live mixes by the DJ's
  - Intreactive photo gallery from myusic nights at the venue
 

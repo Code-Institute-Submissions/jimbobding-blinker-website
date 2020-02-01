@@ -138,9 +138,6 @@ i > .burger {
 }
 
 
-.name {
-    margin-top: 20%;
-}
 
 .social-links {
     padding-bottom: 15px;
@@ -317,8 +314,10 @@ h5 {
     font-size: 22px;}
 
 
-.name {
+
+.landing-pages-header{
     text-align: center;
+     margin-top: 20%;
 }
 
 .goodtimes-heading {
@@ -384,11 +383,13 @@ h5 {
 }
 
 @media only screen and (max-width: 700px) {
-.name {
+.landing-pages-header {
     padding-top: 150px;
 }
 
 }
+
+
 
 /*-----------------------------drinks-page*/
 
@@ -434,7 +435,9 @@ hr {
     width: 100%;
 }
 
-
+.beer-container {
+    padding-bottom: 40px;
+}
 /*-----------------------------jumbotron*/
 
 .jumbotron-hours {
@@ -630,10 +633,7 @@ hr {
 
 }
 
-@media only screen and (max-width: 700px) {
 
-.name {    margin-top: 50px;
-    }
 
 
 
