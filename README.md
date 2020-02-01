@@ -62,11 +62,18 @@ General inspiration for my site was taken from [eau-de-vie](http://www.eaudevie.
 
 **Wireframes**
 
-[landing-page](wireframe/landing-page-desktop-mobile.jpg)
-[nav-cards](wireframe/cards-desktop.jpg)
-[menu-nav-cards](wireframe/menu-cards-desk-mob.jpg)
-[hamburger-menu](wireframe/opening-hours-desk-mob.jpg)
-[drinks-menu](wireframe/wine-menu-desk-mob.jpg)
+-[landing-page](wireframe/landing-page-desktop-mobile.jpg)
+-[nav-cards](wireframe/cards-desktop.jpg)
+-[menu-nav-cards](wireframe/menu-cards-desk-mob.jpg)
+-[hamburger-menu](wireframe/opening-hours-desk-mob.jpg)
+-[drinks-menu](wireframe/wine-menu-desk-mob.jpg)
+
+
+
+
+
+
+
 
 **Deployment**
 ----------
@@ -75,7 +82,7 @@ I tested the website on multiple browsers and platforms, including a desktop, I 
 This was to test compatibility and responsiveness. I have added screenshots from said devices.
 -[mobile](devices/mobile/card-nav-mob.png)
 -[ipad](devices/beer-list-ipad.png)
-- [desktop](devices/mobile/booking-form-desk.png)
+-[desktop](devices/mobile/booking-form-desk.png)
 
 
 
