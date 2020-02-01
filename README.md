@@ -27,7 +27,7 @@ I will be using the bootstrap card feature to make a in page navigation menu.
 
 **Demo**
 ----------
-A live demo can be found here. [here] https://e494f380-bec5-42b5-bb5c-d0d295d9351b.ws-eu01.gitpod.io/
+A live demo can be found here. [here](https://8000-e494f380-bec5-42b5-bb5c-d0d295d9351b.ws-eu01.gitpod.io/)
 
 
 
@@ -36,7 +36,7 @@ A live demo can be found here. [here] https://e494f380-bec5-42b5-bb5c-d0d295d935
 ----------
 
 All the photos were donated by Loop Roof bar in Melbourne Australia, Cocktails Beers Ramen and Buns
-in Manchester England and from [Regal-Disco] https://www.facebook.com/regaldisco/   also In Manchester England.
+in Manchester England and from [Regal-Disco](https://www.facebook.com/regaldisco/)   also In Manchester England.
 
 
 
@@ -67,7 +67,7 @@ General inspiration for my site was taken from [eau-de-vie](http://www.eaudevie.
 I tested the website on multiple browsers and platforms, including a desktop, I pad and a mobile device. 
 This was to test compatibility and responsiveness. I have added screenshots from said devices.
 
-[mobile](mobile)
+[mobile](devices/mobile)
 
 
 
