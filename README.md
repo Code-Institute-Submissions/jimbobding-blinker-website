@@ -73,10 +73,12 @@ General inspiration for my site was taken from [eau-de-vie](http://www.eaudevie.
 
 I tested the website on multiple browsers and platforms, including a desktop, I pad and a mobile device. 
 This was to test compatibility and responsiveness. I have added screenshots from said devices.
+-[mobile](devices/mobile/card-nav-mob.png)
+-[ipad](devices/beer-list-ipad.png)
+- [desktop](devices/mobile/booking-form-desk.png)
 
-[mobile](devices/mobile/card-nav-mob.png)
-[ipad](devices/beer-list-ipad.png)
-[desktop](devices/mobile/booking-form-desk.png)
+
+
 
 
 
