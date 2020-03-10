@@ -118,9 +118,9 @@ The social media links are also not automated but there to show how they could b
 
 **Deployment**
 ----------
-This website is hosted directl onto github and is updated through the master branch everytime I add, commit and then push the files through.
+This website is hosted directaly onto github and is updated through the master branch everytime I add, commit and then push the files through.
 
-You can run this locally by cloning the repository and pasting into your own termin. This is a tutorial I used (https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+You can run this locally by cloning the repository and pasting into your own terminal. This is a tutorial I used (https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 
  **Credits**
