@@ -4,7 +4,7 @@ This website is designed to be shown to potential employers of my services as a 
 All the subject matter is supposed to be interchangeable as the bar that I have designed for is fictitious. It is to show the different ways I can promote certain aspects of their business, in an informative yet fun way.
 
 
-*Demo**
+**Demo**
 ----------
 A live demo can be found [here](https://8000-e494f380-bec5-42b5-bb5c-d0d295d9351b.ws-eu01.gitpod.io/)
 
